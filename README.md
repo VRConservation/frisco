@@ -1,1 +1,1 @@
-# frisco
+# Alternative 3point.xyz website
