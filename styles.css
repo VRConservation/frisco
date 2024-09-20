@@ -28,6 +28,11 @@ nav a {
     /* Adjust the font size as needed */
 }
 
+nav a.active {
+    border-bottom: 3px solid orange;
+    /* Underline with a thick orange line */
+}
+
 header img {
     vertical-align: left;
     margin-right: 10px;
