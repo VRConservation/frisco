@@ -53,9 +53,21 @@ main {
     /* Adjust this value as needed to position the content */
 }
 
-main h1,
-main p {
+main h1 {
+    font-size: 40px;/* Adjust the font size as needed */
+}
+
+
+main h1 {
+    font-size: 40px;
+    /* Adjust the font size as needed */
     background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main p {
+    font-size: 20px;
     padding: 10px;
     border-radius: 5px;
 }
