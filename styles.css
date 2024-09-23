@@ -1,9 +1,15 @@
+body,
+main {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Occidental Light', sans-serif;
     margin: 0;
     padding: 0;
     color: white;
-    background-image: url('burn2.png');
+    background-image: url('img/burn2.png');
     /* Add the background image */
     background-size: cover;
     /* Ensures the image covers the entire page */
@@ -11,6 +17,11 @@ body {
     /* Prevents the image from repeating */
     background-position: center;
     /* Centers the image */
+}
+
+.indented {
+    margin-left: 40px;
+    /* Adjust the value as needed for indentation */
 }
 
 header,
@@ -35,7 +46,7 @@ nav a.active {
 
 body.about-page {
     background-color: black;
-    background: url('riverrem.png') no-repeat center center;
+    background: url('img/dark_back.png') no-repeat center center;
     background-size: cover;
     color: white;
     /* Optional: Set text color to white for better contrast */
@@ -43,7 +54,7 @@ body.about-page {
 
 body.pubs-page {
     background-color: black;
-    background: url('dark_back.png') no-repeat center center;
+    background: url('img/forest_stream.png') no-repeat center center;
     background-size: cover;
     color: white;
     /* Optional: Set text color to white for better contrast */
@@ -51,7 +62,7 @@ body.pubs-page {
 
 body.contact-page {
     background-color: black;
-    background: url('dark_back.png') no-repeat center center;
+    background: url('img/river_sky.png') no-repeat center center;
     background-size: cover;
     color: white;
     /* Optional: Set text color to white for better contrast */
@@ -64,7 +75,7 @@ header img {
 main {
     padding: 20px;
     text-align: left;
-    background: url('burn2.jpg') no-repeat center center;
+    /* background: url('burn2.png') no-repeat center center; */
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -72,7 +83,7 @@ main {
     /* Ensures items are stacked vertically */
     align-items: flex-start;
     /* Aligns items to the start (left) */
-    margin-top: 20px;
+    margin-top: 0;
     /* Adjust this value as needed to position the content */
 }
 
