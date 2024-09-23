@@ -33,6 +33,29 @@ nav a.active {
     /* Underline with a thick orange line */
 }
 
+body.about-page {
+    background-color: black;
+    background: url('riverrem.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    /* Optional: Set text color to white for better contrast */
+}
+
+body.pubs-page {
+    background-color: black;
+    background: url('dark_back.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    /* Optional: Set text color to white for better contrast */
+}
+
+body.contact-page {
+    background-color: black;
+    background: url('dark_back.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    /* Optional: Set text color to white for better contrast */
+}
 header img {
     vertical-align: left;
     margin-right: 10px;
@@ -41,7 +64,7 @@ header img {
 main {
     padding: 20px;
     text-align: left;
-    background: url('screenshot.jpg') no-repeat center center;
+    background: url('burn2.jpg') no-repeat center center;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -56,7 +79,6 @@ main {
 main h1 {
     font-size: 40px;/* Adjust the font size as needed */
 }
-
 
 main h1 {
     font-size: 40px;
