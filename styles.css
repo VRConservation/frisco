@@ -104,3 +104,25 @@ main p {
     padding: 10px;
     border-radius: 5px;
 }
+
+.contact-page p {
+    margin-bottom: 0px;
+    /* Adjust the value as needed for less space */
+}
+
+a {
+    color: white;
+    /* Set link color to white */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+a:visited {
+    color: white;
+    /* Ensure visited links are also white */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Optional: Add underline on hover */
+}
